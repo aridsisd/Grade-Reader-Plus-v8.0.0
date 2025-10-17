@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GradeVue (StudentVUE Reader)</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button class="hamburger" id="menuBtn" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">☰</button>
+    <h1 id="appTitle">GradeVue</h1>
+    <div id="today"></div>
+  </header>
+
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <nav>
+      <a href="#/dashboard" class="nav-item">Dashboard</a>
+      <a href="#/student-info" class="nav-item">Student Info</a>
+      <a href="#/class-schedule" class="nav-item">Class Schedule</a>
+      <a href="#/school-info" class="nav-item">School Information</a>
+      <a href="#/report-card" class="nav-item">Report Card</a>
+      <a href="#/documents" class="nav-item">Documents</a>
+      <a href="#/course-history" class="nav-item">Course History</a>
+      <a href="#/course-request" class="nav-item">Course Request</a>
+      <a href="#/test-history" class="nav-item">Test History</a>
+      <hr />
+      <a href="#/synergy-mail" class="nav-item">Synergy Mail</a>
+      <a href="#/flex-schedule" class="nav-item">Flex Schedule</a>
+      <a href="#/calendar" class="nav-item">Calendar</a>
+      <a href="#/attendance" class="nav-item">Attendance</a>
+      <a href="#/grade-book" class="nav-item">Grade Book</a>
+      <a href="#/daily-assignments" class="nav-item">Daily Assignments</a>
+      <a href="#/class-notes" class="nav-item">Class Notes</a>
+      <hr />
+      <a href="#/settings" class="nav-item">Settings</a>
+      <a href="#/data-tools" class="nav-item">Data Tools</a>
+      <a href="#/signin" class="nav-item">Sign out</a>
+    </nav>
+  </aside>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <template id="tile-template">
+    <a class="tile" href="#">
+      <div class="tile-icon"></div>
+      <div class="tile-label"></div>
+    </a>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

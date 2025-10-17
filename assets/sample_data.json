@@ -1,0 +1,241 @@
+{
+  "student": {
+    "name": "Aarav Patil",
+    "id": "123456",
+    "grade": "10",
+    "school": "Lake Stevens HS",
+    "counselor": "Ms. Weller",
+    "email": "aarav@example.com"
+  },
+  "schedule": [
+    {
+      "period": 1,
+      "course": "AP World History",
+      "teacher": "Mrs. Perez",
+      "room": "B201",
+      "time": "7:30\u20138:20"
+    },
+    {
+      "period": 2,
+      "course": "Algebra II/Trig",
+      "teacher": "Mr. Chen",
+      "room": "C104",
+      "time": "8:25\u20139:15"
+    },
+    {
+      "period": 3,
+      "course": "AP Biology",
+      "teacher": "Ms. Weller",
+      "room": "Lab 2",
+      "time": "9:20\u201310:10"
+    },
+    {
+      "period": 4,
+      "course": "Lunch",
+      "teacher": "\u2014",
+      "room": "Commons",
+      "time": "10:10\u201310:40"
+    },
+    {
+      "period": 5,
+      "course": "Spanish II",
+      "teacher": "Se\u00f1or Perez",
+      "room": "A116",
+      "time": "10:45\u201311:35"
+    },
+    {
+      "period": 6,
+      "course": "AP Physics 1",
+      "teacher": "Dr. Singh",
+      "room": "D303",
+      "time": "11:40\u201312:30"
+    }
+  ],
+  "schoolInfo": {
+    "name": "Lake Stevens High School",
+    "phone": "(555) 555\u20111234",
+    "address": "2908 113th Ave NE, Lake Stevens, WA"
+  },
+  "reportCard": [
+    {
+      "term": "S1",
+      "course": "AP World History",
+      "grade": "A-",
+      "credits": 0.5
+    },
+    {
+      "term": "S1",
+      "course": "Algebra II/Trig",
+      "grade": "A",
+      "credits": 0.5
+    },
+    {
+      "term": "S1",
+      "course": "AP Biology",
+      "grade": "B+",
+      "credits": 0.5
+    }
+  ],
+  "documents": [
+    {
+      "name": "Unofficial Transcript (PDF)",
+      "url": "#",
+      "type": "Transcript"
+    },
+    {
+      "name": "Attendance Letter 10/2025 (PDF)",
+      "url": "#",
+      "type": "Attendance"
+    }
+  ],
+  "courseHistory": [
+    {
+      "year": "2024-25",
+      "course": "Geometry",
+      "term": "Y1",
+      "grade": "A",
+      "credits": 1.0
+    },
+    {
+      "year": "2024-25",
+      "course": "Chemistry",
+      "term": "Y1",
+      "grade": "A-",
+      "credits": 1.0
+    }
+  ],
+  "courseRequests": [
+    {
+      "course": "AP CS Principles",
+      "status": "Requested"
+    },
+    {
+      "course": "Weight Training",
+      "status": "Alternate"
+    }
+  ],
+  "tests": [
+    {
+      "name": "PSAT/NMSQT",
+      "date": "10/2025",
+      "score": "1220"
+    },
+    {
+      "name": "WIDA",
+      "date": "05/2025",
+      "score": "Proficient"
+    }
+  ],
+  "mail": [
+    {
+      "subject": "Welcome to Quarter 2",
+      "from": "Dr. Singh",
+      "date": "10/14/2025"
+    },
+    {
+      "subject": "Missing Assignment Notice",
+      "from": "Se\u00f1or Perez",
+      "date": "10/10/2025"
+    }
+  ],
+  "flexSchedule": [
+    {
+      "date": "10/17/2025",
+      "session": "A",
+      "activity": "Physics Lab Make-up"
+    },
+    {
+      "date": "10/24/2025",
+      "session": "B",
+      "activity": "World History Study Hall"
+    }
+  ],
+  "calendar": [
+    {
+      "date": "10/20/2025",
+      "title": "AP Bio Quiz 3",
+      "type": "Assessment"
+    },
+    {
+      "date": "10/28/2025",
+      "title": "Football Game",
+      "type": "Activity"
+    }
+  ],
+  "attendance": [
+    {
+      "date": "09/23/2025",
+      "status": "Excused",
+      "notes": "Medical"
+    },
+    {
+      "date": "10/03/2025",
+      "status": "Tardy",
+      "notes": "Bus delay"
+    }
+  ],
+  "gradebook": [
+    {
+      "course": "AP World History",
+      "teacher": "Mrs. Perez",
+      "percent": 94.1,
+      "letter": "A"
+    },
+    {
+      "course": "Algebra II/Trig",
+      "teacher": "Mr. Chen",
+      "percent": 96.5,
+      "letter": "A"
+    },
+    {
+      "course": "AP Biology",
+      "teacher": "Ms. Weller",
+      "percent": 88.9,
+      "letter": "B+"
+    },
+    {
+      "course": "AP Physics 1",
+      "teacher": "Dr. Singh",
+      "percent": 92.3,
+      "letter": "A-"
+    }
+  ],
+  "assignments": [
+    {
+      "date": "10/12/2025",
+      "course": "AP World History",
+      "title": "Unit 3 Reading Notes",
+      "pointsEarned": 20,
+      "pointsPossible": 20,
+      "status": "Turned in"
+    },
+    {
+      "date": "10/13/2025",
+      "course": "Algebra II/Trig",
+      "title": "HW 2.4",
+      "pointsEarned": 10,
+      "pointsPossible": 10,
+      "status": "Graded"
+    },
+    {
+      "date": "10/14/2025",
+      "course": "AP Biology",
+      "title": "Cell Cycle Lab",
+      "pointsEarned": 45,
+      "pointsPossible": 50,
+      "status": "Graded"
+    }
+  ],
+  "classNotes": [
+    {
+      "course": "Spanish II",
+      "note": "Prepositions of location + estar",
+      "date": "10/08/2025"
+    },
+    {
+      "course": "AP Physics 1",
+      "note": "Kinematics: projectile motion",
+      "date": "10/09/2025"
+    }
+  ]
+}
