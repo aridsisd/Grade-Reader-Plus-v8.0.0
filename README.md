@@ -1,4 +1,4 @@
-# GradeVue — StudentVUE-style Grade Reader (for GitHub Pages)
+# GradeVue — StudentVUE-style Grade Reader 
 
 This is a static, client‑side web app you can host on GitHub Pages. It mimics the StudentVUE mobile UI and includes the pages you showed:
 
@@ -8,11 +8,6 @@ This is a static, client‑side web app you can host on GitHub Pages. It mimics 
 - Grade Book, Daily Assignments, Class Notes
 - Settings, Dashboard, and Sign In
 
-## How to use on GitHub Pages
-
-1. Create a repo named `<username>.github.io` **or** any repo with Pages enabled.
-2. Upload the files in this folder to the repo root.
-3. Visit your GitHub Pages URL to use it. It will load demo data by default.
 
 ## District link on Sign‑in
 
